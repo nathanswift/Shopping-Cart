@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>jQuery</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+    <div id="wrapper">
+        <div id="options">
+            <h1 id="title">Super Cool Service</h1>
+            <h2 id="price">$ 10 /mo</h2>
+            <p>Choose a Plan:</p>
+            <select id="plan">
+                <option value="monthly">Monthly</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="yearly">Yearly</option>
+            </select>
+            <button id="add">Add to Cart</button>
+            <button id="display_cart">Hide Cart</button>
+        </div>
+        <div id="cart">
+            <h1>Cart</h1>
+            <hr>
+            <button id="empty">Clear Cart</button>
+            <ul id="in_cart"></ul>
+            <h2 id="total">$0</h2>
+            <div id="complete"></div>
+            <button id="purchase">Purchase</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script> <!---Make sure this is below your jQuery cdn-->
+  </body>
+</html>
